@@ -24,11 +24,15 @@ D = [122 139 0.115;
 
 ## Formulação da regressão múltipla
 
-$$y = β0 + β1*x_{1} + β2*x_{2} + ... + βk*x_{k} + ε$$
+```math
+y = β0 + β1*x_{1} + β2*x_{2} + ... + βk*x_{k} + ε $$
+```
 
 No caso, como no exemplo temos $k=2$, temos:
 
-$$y = β0 + β1*x_{1} + β2*x_{2}+ ε$$
+```math
+y = β0 + β1*x_{1} + β2*x_{2}+ ε
+```
 
 ## Formato matricial
 
@@ -70,6 +74,12 @@ $$ \hat{β} ={(X^{T}X + \lambda I)}^{-1}X^{T}y $$
 | **$\beta_2$**       | `0.0004401434`  |
 | **$R^2$**           | `0.7238598113`  |
 
+- Base de dados original
+  
 ![Base de dados original](/outputs/dados.jpg)
+
+
+- Hiperplano
+
 
 ![Hiperplano](/outputs/hiperplano.jpg)
