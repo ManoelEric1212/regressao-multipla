@@ -25,7 +25,7 @@ D = [122 139 0.115;
 ## Formulação da regressão múltipla
 
 ```math
-y = β0 + β1*x_{1} + β2*x_{2} + ... + βk*x_{k} + ε $$
+y = β0 + β1*x_{1} + β2*x_{2} + ... + βk*x_{k} + ε
 ```
 
 No caso, como no exemplo temos $k=2$, temos:
@@ -75,11 +75,9 @@ $$ \hat{β} ={(X^{T}X + \lambda I)}^{-1}X^{T}y $$
 | **$R^2$**           | `0.7238598113`  |
 
 - Base de dados original
-  
+
 ![Base de dados original](/outputs/dados.jpg)
 
-
 - Hiperplano
-
 
 ![Hiperplano](/outputs/hiperplano.jpg)
